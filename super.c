@@ -1937,7 +1937,7 @@ free_sbi:
 static struct dentry *f2fs_mount(struct file_system_type *fs_type, int flags,
 			const char *dev_name, void *data)
 {
-	printk("linux-4.9.76-origin\n");
+	printk("linux-4.9.76-atgc\n");
 	return mount_bdev(fs_type, flags, dev_name, data, f2fs_fill_super);
 }
 
